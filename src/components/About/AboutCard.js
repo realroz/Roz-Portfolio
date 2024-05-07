@@ -31,7 +31,9 @@ function AboutCard() {
             <br/>
             manager as well. I am currently focusing on delivering a ChatGPT
             <br/>
-            like experience to classified (intranet) networks.
+            like experience to classified (intranet) networks. FYI... this site
+            <br/>
+            is self-hosted on my homelab. 😁 
             <br/>
             <br/>
             Apart from coding, some other activities that I love to do!
