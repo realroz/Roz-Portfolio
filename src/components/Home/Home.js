@@ -19,10 +19,9 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> GEOFFREY ROZINAK</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
