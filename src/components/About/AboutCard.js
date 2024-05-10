@@ -15,25 +15,25 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Geoffrey Rozinak </span>
-            from good old <span className="purple"> Fayetteville, NC.</span>
-            <br />
+            from good old <span className="purple"> Fayetteville, NC. </span>
+          
             I am currently employed as a software developer at the US Army.
-            <br />
-            I have a varried background focusing on leaderhship and general 
-            <br />
-            engineering. I am a formerly trained automotive technition. A
-            <br/>
-            US Army Officer in the Reserves. Most importanly I am a software
-            <br/>
+           
+            I have a varied background focusing on leadership and general 
+           
+            engineering. I am a formerly trained automotive technician. A
+           
+            US Army Officer in the Reserves. Most importanly, I am a software
+            
             professional. Most of my experience is in engineering, but 
-            <br/>
-            I have spent several year leading software teams as a product
-            <br/>
+           
+            I have spent several years leading software teams as a product
+           
             manager as well. I am currently focusing on delivering a ChatGPT
-            <br/>
+           
             like experience to classified (intranet) networks. FYI... this site
-            <br/>
-            is self-hosted on my homelab. 😁 
+            
+            is self-hosted on my home-lab. 😁 
             <br/>
             <br/>
             Apart from coding, some other activities that I love to do!

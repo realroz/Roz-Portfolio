@@ -44,7 +44,7 @@ function Projects() {
               imgPath={homelab}
               isBlog={false}
               title="My Homelab"
-              description="My Homelab is a never ending experiment in IT. I set up a public facing network and a private network. Ive added Nextcloud and a media server to my private network. On the public network I have a demo of GreenGPT and host numerous docker contains (such as the one where this website lives). I use Yacht to manage my containers."
+              description="My Homelab is a never ending experiment in IT. I set up a public facing network and a private network. Ive added Nextcloud and a media server to my private network. On the public network I have a demo of GreenGPT and host numerous docker containers (such as the one where this website lives). I use Yacht to manage my containers."
               // ghLink="https://github.com/soumyajit4419/Chatify"
               // demoLink="https://chatify-49.web.app/"
             />
