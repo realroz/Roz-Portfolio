@@ -19,10 +19,12 @@ RUN npm run build && ls -al /app/build
 # Use Nginx to serve the static content
 FROM nginx:alpine
 COPY --from=builder /app/build /usr/share/nginx/html
+COPY ./certs/fullchain.pem /etc/ssl/certs/fullchain.pem
+COPY ./certs/privkey.pem /etc/ssl/certs/privkey.pem
 RUN mkdir ./test
 COPY --from=builder /app/build /test
 COPY nginx.conf /etc/nginx/nginx.conf
-EXPOSE 80
+EXPOSE 8089 3443
 CMD ["nginx", "-g", "daemon off;"]
 
 
