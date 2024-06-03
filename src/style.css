@@ -409,8 +409,11 @@ button:focus {
   position: fixed;
   opacity: .4;
 }
-.footer-copywright {
-  text-align: center !important;
+
+.footer-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .footer-body {
@@ -420,14 +423,23 @@ button:focus {
 
 @media (max-width: 767px) {
   .footer-copywright {
-    text-align: center !important;
+    text-align: left !important;
   }
 
   .footer-body {
     text-align: center !important;
   }
 }
+.footer-close{
+  cursor: pointer;
+  color: white;
+  padding: 0px 15px 15px 0px;
+  /* width: 15px;
+  height: 15px;
+  
+  text-align: center; */
 
+}
 .footer h3 {
   font-size: 1em;
   color: white !important;

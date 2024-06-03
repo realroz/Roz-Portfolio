@@ -6,7 +6,6 @@ import greengpt from "../../Assets/Projects/GreenGPT.png";
 import eprovider from "../../Assets/Projects/eProvider.png";
 import homelab from "../../Assets/Projects/homelab.jpg";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -24,9 +23,9 @@ function Projects() {
               imgPath={greengpt}
               isBlog={false}
               title="GreenGPT"
-              description="GreenGPT is a React.js App that delivers a ChatGPT like application that can run on classified/disconnected networks. I use open source LLMs and serve the LLMs using Text Generation Web UI. I also added RAG to the project so users can ask specific questions about thier documents. "
-              // ghLink="https://github.com/soumyajit4419/Chatify"
-              // demoLink="https://chatify-49.web.app/"
+              description="GreenGPT is a React.js App that delivers a ChatGPT like application that can run on classified/disconnected networks. I use open source LLMs and serve the LLMs using Text Generation Web UI. I also added RAG to the project so users can ask specific questions about thier documents. Contact me for demo login."
+              // ghLink="https://greengpt.rozinak.us"
+              demoLink="https://greengpt.rozinak.us"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -44,12 +43,11 @@ function Projects() {
               imgPath={homelab}
               isBlog={false}
               title="My Homelab"
-              description="My Homelab is a never ending experiment in IT. I set up a public facing network and a private network. Ive added Nextcloud and a media server to my private network. On the public network I have a demo of GreenGPT and host numerous docker containers (such as the one where this website lives). I use Yacht to manage my containers."
+              description="My Homelab is a never ending experiment in IT. I set up a public facing network and a private network. On the public network I have a demo of GreenGPT and host numerous docker containers (such as the one where this website lives). I use Yacht to manage my containers."
               // ghLink="https://github.com/soumyajit4419/Chatify"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>

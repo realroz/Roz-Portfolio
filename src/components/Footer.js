@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
@@ -6,18 +6,36 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { IoCloseCircle } from "react-icons/io5";
 
-function Footer() {
+const Footer = ({setFooterVisible}) => {
   let date = new Date();
   let year = date.getFullYear();
+
+  const handleFooterClick = () => {
+    setFooterVisible(false);
+  }
+
+  useEffect(() => {
+    setTimeout(()=> {
+      setFooterVisible(false);
+    }, "5000");
+  }, [])
+
   return (
     <Container fluid className="footer">
-      <Row>
-        <Col md="5" className="footer-copywright">
+      <div className="footer-container">
+       
+          <div className="footer-close" onClick={() => handleFooterClick()}>
+            <IoCloseCircle /> 
+          </div>
+ 
+       
+        <div className="footer-copywright">
           <h3>Special Thanks to Soumyajit Behera for creating this template... oh and obviously modified by yours truly.</h3>
-        </Col>
+        </div>
 
-        <Col md="4" className="footer-body">
+        <div className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -30,8 +48,8 @@ function Footer() {
               </a>
             </li>    
           </ul>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </Container>
   );
 }

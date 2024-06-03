@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a self taught full-stack engineer with experince in Product Management and UX/UI Research.
+              I am a self taught full-stack engineer with experince in Product Management and UX/UI.
               <br />
               <br />I am fluent in languages like
               <i>
@@ -29,11 +29,12 @@ function Home2() {
               <br />
               My field of Interest's are &nbsp;
               <i>
-                <b className="purple">creating easy to use web apps that leverage AI and are valuable to users</b> and
-                also in all things{" "}
+                <b className="purple">solving users problems by creating easy to use web apps that leverage AI</b> and
+                also... all things{" "}
                 <b className="purple">
-                  IT.
+                  IT.{" "}
                 </b>
+                🤓
               </i>
               <br />
               <br />
@@ -82,7 +83,7 @@ function Home2() {
               </li> */}
               <li className="social-icons">
                 <a
-                  href="www.linkedin.com/in/geoffrey-rozinak"
+                  href="https://www.linkedin.com/in/geoffrey-rozinak"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

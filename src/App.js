@@ -19,7 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-
+  const [footerVisible, setFooterVisible] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
@@ -41,7 +41,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
+        {footerVisible ? <Footer setFooterVisible={setFooterVisible} /> : ""}
       </div>
     </Router>
   );
