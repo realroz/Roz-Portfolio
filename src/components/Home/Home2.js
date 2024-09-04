@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a self taught full-stack engineer with experince in Product Management and UX/UI.
+              I am a self-taught full-stack engineer with experience in Product Management and UX/UI.
               <br />
               <br />I am fluent in languages like
               <i>
@@ -29,17 +29,18 @@ function Home2() {
               <br />
               My field of Interest's are &nbsp;
               <i>
-                <b className="purple">solving users problems by creating easy to use web apps that leverage AI</b> and
+                <b className="purple">solving users' problems by creating easy-to-use web apps that leverage AI.</b> And
                 also... all things{" "}
                 <b className="purple">
                   IT.{" "}
                 </b>
-                🤓
+                
               </i>
+              🤓
               <br />
               <br />
               I am passionate about {" "}
-              with <b className="purple">React.js</b> for
+               <b className="purple">React.js</b> for
               <i>
                 <b className="purple">
                   {" "}

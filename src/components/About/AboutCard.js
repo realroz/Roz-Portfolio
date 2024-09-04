@@ -17,21 +17,19 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Geoffrey Rozinak </span>
             from good old <span className="purple"> Fayetteville, NC. </span>
           
-            I am currently employed as a software developer at the US Army.
+            I am currently employed as a Partner Engineer at the <span className="purple">TurbineOne.</span>
            
             I have a varied background focusing on leadership and general 
            
             engineering. I am a formerly trained automotive technician. A
            
-            US Army Officer in the Reserves. Most importanly, I am a software
+            US Army Officer in the Reserves. Most importantly, I am a software
             
             professional. Most of my experience is in engineering, but 
            
             I have spent several years leading software teams as a product
            
-            manager as well. I am currently focusing on delivering a ChatGPT
-           
-            like experience to classified (intranet) networks. FYI... this site
+            manager. FYI... this site
             
             is self-hosted on my home-lab. 😁 
             <br/>
