@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import greengpt from "../../Assets/Projects/GreenGPT.png";
 import eprovider from "../../Assets/Projects/eProvider.png";
 import homelab from "../../Assets/Projects/homelab.jpg";
+import rozmap from "../../Assets/Projects/rozmap.png";
+import rozipedia from "../../Assets/Projects/rozipedia.png";
+import rozgpt from "../../Assets/Projects/rozgpt.png";
 
 function Projects() {
   return (
@@ -18,6 +21,30 @@ function Projects() {
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rozmap}
+              isBlog={false}
+              title="RozMap"
+              description="RozMap is a fully offline map server I built for fun. It serves my own vector tiles and terrain data, so the whole thing keeps working with no internet connection at all. The web client supports place search, 3D view, and hillshaded terrain. It runs in a Docker container on my home server, behind nginx as a subdomain of my primary domain."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rozipedia}
+              isBlog={false}
+              title="Rozipedia"
+              description="Rozipedia is my self-hosted Wikipedia clone. I run Kiwix in Docker against a full English Wikipedia ZIM archive, which gives me the complete encyclopedia (articles, images, and search) with zero internet dependency. Like my other services, it's a Docker container on my home server proxied through nginx as its own subdomain."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rozgpt}
+              isBlog={false}
+              title="RozGPT"
+              description="RozGPT is my own private LLM service. I serve open source models with Ollama and put Open WebUI in front of them, giving me a ChatGPT style interface, including multimodal image understanding, that never sends my data to a third party. Both pieces run as Docker containers on my home server behind an nginx reverse proxy."
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={greengpt}
