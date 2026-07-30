@@ -1,4 +1,3 @@
-version: '3.9'
 services:
   react-nginx:
     build: .
@@ -6,3 +5,8 @@ services:
     ports:
       - "8089:8089"
       - "3443:3443"
+    volumes:
+      # Certificates (and tls.conf) are supplied at runtime, never baked into
+      # the image. On a machine without a certs/ directory this mounts empty
+      # and the container serves plain HTTP on 8089 only.
+      - ./certs:/etc/nginx/certs:ro
